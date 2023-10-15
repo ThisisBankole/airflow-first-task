@@ -16220,3 +16220,38 @@ SyntaxError: invalid syntax
 [2023-10-15T16:56:06.637+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:06.637+0100] {dag.py:2705} INFO - Sync 1 DAGs
 [2023-10-15T16:56:06.643+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:06.643+0100] {dag.py:3452} INFO - Setting next_dagrun for execute to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
 [2023-10-15T16:56:06.651+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute.py took 0.182 seconds
+[2023-10-15T16:56:08.166+0100] {processor.py:153} INFO - Started process (PID=46130) to work on /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:08.168+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute.py for tasks to queue
+[2023-10-15T16:56:08.168+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:08.168+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:08.183+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute']) retrieved from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:08.339+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:08.338+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T16:56:08.345+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:08.344+0100] {dag.py:3452} INFO - Setting next_dagrun for execute to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T16:56:08.351+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute.py took 0.185 seconds
+[2023-10-15T16:56:09.827+0100] {processor.py:153} INFO - Started process (PID=46136) to work on /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:09.829+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute.py for tasks to queue
+[2023-10-15T16:56:09.829+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:09.829+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:09.845+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute']) retrieved from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:10.004+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:10.004+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T16:56:10.010+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:10.010+0100] {dag.py:3452} INFO - Setting next_dagrun for execute to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T16:56:10.017+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute.py took 0.190 seconds
+[2023-10-15T16:56:11.379+0100] {processor.py:153} INFO - Started process (PID=46149) to work on /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:11.381+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute.py for tasks to queue
+[2023-10-15T16:56:11.382+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:11.382+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:11.394+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute']) retrieved from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:11.560+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:11.559+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T16:56:11.566+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:11.565+0100] {dag.py:3452} INFO - Setting next_dagrun for execute to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T16:56:11.572+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute.py took 0.193 seconds
+[2023-10-15T16:56:12.185+0100] {processor.py:153} INFO - Started process (PID=46150) to work on /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:12.187+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute.py for tasks to queue
+[2023-10-15T16:56:12.187+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:12.187+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:12.208+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute']) retrieved from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:12.380+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:12.380+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T16:56:12.387+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:12.387+0100] {dag.py:3452} INFO - Setting next_dagrun for execute to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T16:56:12.394+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute.py took 0.209 seconds
+[2023-10-15T16:56:13.871+0100] {processor.py:153} INFO - Started process (PID=46161) to work on /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:13.873+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute.py for tasks to queue
+[2023-10-15T16:56:13.873+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:13.873+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:13.886+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute']) retrieved from /Users/b/airflow/dags/__pycache__/execute.py
+[2023-10-15T16:56:14.037+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:14.037+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T16:56:14.043+0100] {logging_mixin.py:137} INFO - [2023-10-15T16:56:14.043+0100] {dag.py:3452} INFO - Setting next_dagrun for execute to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T16:56:14.049+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute.py took 0.179 seconds
