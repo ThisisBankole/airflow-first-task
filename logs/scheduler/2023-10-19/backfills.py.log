@@ -8734,3 +8734,10 @@
 [2023-10-19T15:18:42.023+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:42.023+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:18:42.029+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:42.029+0100] {dag.py:3722} INFO - Setting next_dagrun for cron_backfills to 2023-10-21T00:00:00+00:00, run_after=2023-10-21T12:00:00+00:00
 [2023-10-19T15:18:42.036+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/backfills.py took 0.095 seconds
+[2023-10-19T15:19:13.517+0100] {processor.py:157} INFO - Started process (PID=70754) to work on /Users/b/airflow/dags/backfills.py
+[2023-10-19T15:19:13.520+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/backfills.py for tasks to queue
+[2023-10-19T15:19:13.520+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:13.520+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/backfills.py
+[2023-10-19T15:19:13.537+0100] {processor.py:839} INFO - DAG(s) dict_keys(['cron_backfills']) retrieved from /Users/b/airflow/dags/backfills.py
+[2023-10-19T15:19:13.597+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:13.596+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:19:13.603+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:13.603+0100] {dag.py:3722} INFO - Setting next_dagrun for cron_backfills to 2023-10-21T00:00:00+00:00, run_after=2023-10-21T12:00:00+00:00
+[2023-10-19T15:19:13.609+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/backfills.py took 0.093 seconds
