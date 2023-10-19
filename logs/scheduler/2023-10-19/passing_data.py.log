@@ -8734,3 +8734,10 @@
 [2023-10-19T15:18:19.192+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:19.192+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:18:19.198+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:19.198+0100] {dag.py:3722} INFO - Setting next_dagrun for passing_data to None, run_after=None
 [2023-10-19T15:18:19.205+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/passing_data.py took 0.094 seconds
+[2023-10-19T15:18:50.687+0100] {processor.py:157} INFO - Started process (PID=70648) to work on /Users/b/airflow/dags/passing_data.py
+[2023-10-19T15:18:50.689+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/passing_data.py for tasks to queue
+[2023-10-19T15:18:50.689+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:50.689+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/passing_data.py
+[2023-10-19T15:18:50.709+0100] {processor.py:839} INFO - DAG(s) dict_keys(['passing_data']) retrieved from /Users/b/airflow/dags/passing_data.py
+[2023-10-19T15:18:50.764+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:50.764+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:18:50.769+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:50.769+0100] {dag.py:3722} INFO - Setting next_dagrun for passing_data to None, run_after=None
+[2023-10-19T15:18:50.776+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/passing_data.py took 0.089 seconds
