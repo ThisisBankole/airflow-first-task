@@ -8741,3 +8741,10 @@
 [2023-10-19T15:18:55.801+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:55.801+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:18:55.808+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:55.807+0100] {dag.py:3722} INFO - Setting next_dagrun for dags_taskflow to None, run_after=None
 [2023-10-19T15:18:55.814+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/dags_taskflow.py took 0.099 seconds
+[2023-10-19T15:19:27.270+0100] {processor.py:157} INFO - Started process (PID=70804) to work on /Users/b/airflow/dags/dags_taskflow.py
+[2023-10-19T15:19:27.272+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/dags_taskflow.py for tasks to queue
+[2023-10-19T15:19:27.273+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:27.273+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/dags_taskflow.py
+[2023-10-19T15:19:27.293+0100] {processor.py:839} INFO - DAG(s) dict_keys(['dags_taskflow']) retrieved from /Users/b/airflow/dags/dags_taskflow.py
+[2023-10-19T15:19:27.350+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:27.349+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:19:27.355+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:27.355+0100] {dag.py:3722} INFO - Setting next_dagrun for dags_taskflow to None, run_after=None
+[2023-10-19T15:19:27.361+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/dags_taskflow.py took 0.091 seconds
