@@ -3525,3 +3525,10 @@ NameError: name 'bra' is not defined
 [2023-10-19T15:18:05.441+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:05.440+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:18:05.447+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:05.447+0100] {dag.py:3722} INFO - Setting next_dagrun for branching_op_taskflow to None, run_after=None
 [2023-10-19T15:18:05.454+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/branching_op_taskflow.py took 0.340 seconds
+[2023-10-19T15:18:36.682+0100] {processor.py:157} INFO - Started process (PID=70582) to work on /Users/b/airflow/dags/branching_op_taskflow.py
+[2023-10-19T15:18:36.683+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/branching_op_taskflow.py for tasks to queue
+[2023-10-19T15:18:36.683+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:36.683+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/branching_op_taskflow.py
+[2023-10-19T15:18:36.923+0100] {processor.py:839} INFO - DAG(s) dict_keys(['branching_op_taskflow']) retrieved from /Users/b/airflow/dags/branching_op_taskflow.py
+[2023-10-19T15:18:36.995+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:36.995+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:18:37.002+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:37.002+0100] {dag.py:3722} INFO - Setting next_dagrun for branching_op_taskflow to None, run_after=None
+[2023-10-19T15:18:37.008+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/branching_op_taskflow.py took 0.327 seconds

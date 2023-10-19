@@ -8727,3 +8727,10 @@
 [2023-10-19T15:18:01.482+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:01.481+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:18:01.487+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:01.487+0100] {dag.py:3722} INFO - Setting next_dagrun for stores_pipeline to None, run_after=None
 [2023-10-19T15:18:01.495+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/stores_pipeline.py took 0.293 seconds
+[2023-10-19T15:18:32.951+0100] {processor.py:157} INFO - Started process (PID=70576) to work on /Users/b/airflow/dags/stores_pipeline.py
+[2023-10-19T15:18:32.953+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/stores_pipeline.py for tasks to queue
+[2023-10-19T15:18:32.953+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:32.953+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/stores_pipeline.py
+[2023-10-19T15:18:33.178+0100] {processor.py:839} INFO - DAG(s) dict_keys(['stores_pipeline']) retrieved from /Users/b/airflow/dags/stores_pipeline.py
+[2023-10-19T15:18:33.262+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:33.262+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:18:33.268+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:33.268+0100] {dag.py:3722} INFO - Setting next_dagrun for stores_pipeline to None, run_after=None
+[2023-10-19T15:18:33.275+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/stores_pipeline.py took 0.324 seconds
