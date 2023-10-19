@@ -8727,3 +8727,10 @@
 [2023-10-19T15:19:12.325+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:12.324+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:19:12.331+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:12.330+0100] {dag.py:3722} INFO - Setting next_dagrun for CRossComm to 2023-10-19T00:00:00+00:00, run_after=2023-10-20T00:00:00+00:00
 [2023-10-19T15:19:12.339+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/cross-comm.py took 0.092 seconds
+[2023-10-19T15:19:43.351+0100] {processor.py:157} INFO - Started process (PID=70860) to work on /Users/b/airflow/dags/cross-comm.py
+[2023-10-19T15:19:43.352+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/cross-comm.py for tasks to queue
+[2023-10-19T15:19:43.353+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:43.352+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/cross-comm.py
+[2023-10-19T15:19:43.369+0100] {processor.py:839} INFO - DAG(s) dict_keys(['CRossComm']) retrieved from /Users/b/airflow/dags/cross-comm.py
+[2023-10-19T15:19:43.437+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:43.437+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:19:43.443+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:43.443+0100] {dag.py:3722} INFO - Setting next_dagrun for CRossComm to 2023-10-19T00:00:00+00:00, run_after=2023-10-20T00:00:00+00:00
+[2023-10-19T15:19:43.450+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/cross-comm.py took 0.100 seconds
