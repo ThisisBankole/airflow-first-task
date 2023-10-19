@@ -8734,3 +8734,10 @@
 [2023-10-19T15:19:25.715+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:25.715+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:19:25.721+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:25.720+0100] {dag.py:3722} INFO - Setting next_dagrun for branching to None, run_after=None
 [2023-10-19T15:19:25.727+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/branching.py took 0.087 seconds
+[2023-10-19T15:19:57.104+0100] {processor.py:157} INFO - Started process (PID=70942) to work on /Users/b/airflow/dags/branching.py
+[2023-10-19T15:19:57.106+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/branching.py for tasks to queue
+[2023-10-19T15:19:57.106+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:57.106+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/branching.py
+[2023-10-19T15:19:57.120+0100] {processor.py:839} INFO - DAG(s) dict_keys(['branching']) retrieved from /Users/b/airflow/dags/branching.py
+[2023-10-19T15:19:57.177+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:57.177+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:19:57.183+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:57.183+0100] {dag.py:3722} INFO - Setting next_dagrun for branching to None, run_after=None
+[2023-10-19T15:19:57.189+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/branching.py took 0.085 seconds

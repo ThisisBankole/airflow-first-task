@@ -721,3 +721,10 @@ SyntaxError: invalid syntax
 [2023-10-19T15:19:34.541+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:34.541+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:19:34.546+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:34.546+0100] {dag.py:3722} INFO - Setting next_dagrun for inter_op_taskflow to None, run_after=None
 [2023-10-19T15:19:34.553+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/inter_op_taskflow.py took 0.362 seconds
+[2023-10-19T15:20:05.694+0100] {processor.py:157} INFO - Started process (PID=70965) to work on /Users/b/airflow/dags/inter_op_taskflow.py
+[2023-10-19T15:20:05.696+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/inter_op_taskflow.py for tasks to queue
+[2023-10-19T15:20:05.697+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:20:05.697+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/inter_op_taskflow.py
+[2023-10-19T15:20:05.964+0100] {processor.py:839} INFO - DAG(s) dict_keys(['inter_op_taskflow']) retrieved from /Users/b/airflow/dags/inter_op_taskflow.py
+[2023-10-19T15:20:06.032+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:20:06.032+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:20:06.038+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:20:06.038+0100] {dag.py:3722} INFO - Setting next_dagrun for inter_op_taskflow to None, run_after=None
+[2023-10-19T15:20:06.045+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/inter_op_taskflow.py took 0.351 seconds

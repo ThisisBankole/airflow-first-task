@@ -8734,3 +8734,10 @@
 [2023-10-19T15:19:32.584+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:32.584+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:19:32.590+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:19:32.590+0100] {dag.py:3722} INFO - Setting next_dagrun for execute_sqlite_pipeline to None, run_after=None
 [2023-10-19T15:19:32.596+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/sqlite_pipeline.py took 0.477 seconds
+[2023-10-19T15:20:03.629+0100] {processor.py:157} INFO - Started process (PID=70964) to work on /Users/b/airflow/dags/sqlite_pipeline.py
+[2023-10-19T15:20:03.631+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/sqlite_pipeline.py for tasks to queue
+[2023-10-19T15:20:03.631+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:20:03.631+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/sqlite_pipeline.py
+[2023-10-19T15:20:04.027+0100] {processor.py:839} INFO - DAG(s) dict_keys(['execute_sqlite_pipeline']) retrieved from /Users/b/airflow/dags/sqlite_pipeline.py
+[2023-10-19T15:20:04.087+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:20:04.087+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:20:04.093+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:20:04.093+0100] {dag.py:3722} INFO - Setting next_dagrun for execute_sqlite_pipeline to None, run_after=None
+[2023-10-19T15:20:04.099+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/sqlite_pipeline.py took 0.470 seconds
