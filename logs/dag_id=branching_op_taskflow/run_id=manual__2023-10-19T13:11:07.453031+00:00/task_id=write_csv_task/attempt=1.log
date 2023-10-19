@@ -1,0 +1,14 @@
+[2023-10-19T14:11:15.943+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branching_op_taskflow.write_csv_task manual__2023-10-19T13:11:07.453031+00:00 [queued]>
+[2023-10-19T14:11:15.945+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branching_op_taskflow.write_csv_task manual__2023-10-19T13:11:07.453031+00:00 [queued]>
+[2023-10-19T14:11:15.945+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-19T14:11:15.949+0100] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): write_csv_task> on 2023-10-19 13:11:07.453031+00:00
+[2023-10-19T14:11:15.952+0100] {standard_task_runner.py:57} INFO - Started process 64985 to run task
+[2023-10-19T14:11:15.958+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'branching_op_taskflow', 'write_csv_task', 'manual__2023-10-19T13:11:07.453031+00:00', '--job-id', '482', '--raw', '--subdir', 'DAGS_FOLDER/branching_op_taskflow.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmpe3vguf5a']
+[2023-10-19T14:11:15.963+0100] {standard_task_runner.py:85} INFO - Job 482: Subtask write_csv_task
+[2023-10-19T14:11:15.979+0100] {task_command.py:416} INFO - Running <TaskInstance: branching_op_taskflow.write_csv_task manual__2023-10-19T13:11:07.453031+00:00 [running]> on host 192.168.1.112
+[2023-10-19T14:11:16.000+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='branching_op_taskflow' AIRFLOW_CTX_TASK_ID='write_csv_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-19T13:11:07.453031+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-19T13:11:07.453031+00:00'
+[2023-10-19T14:11:16.005+0100] {logging_mixin.py:151} WARNING - /Users/b/airflow/dags/branching_op_taskflow.py:87 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2023-10-19T14:11:16.012+0100] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-19T14:11:16.014+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=branching_op_taskflow, task_id=write_csv_task, execution_date=20231019T131107, start_date=20231019T131115, end_date=20231019T131116
+[2023-10-19T14:11:16.061+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-19T14:11:16.067+0100] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,203 @@
+2023-10-16 13:01:52,188 INFO - Starting the scheduler
+2023-10-16 13:01:52,189 INFO - Processing each file at most -1 times
+2023-10-16 13:01:52,191 INFO - Launched DagFileProcessorManager with pid: 88319
+2023-10-16 13:01:52,193 INFO - Adopting or resetting orphaned tasks for active dag runs
+2023-10-16 13:01:54,315 ERROR - Exception when executing SchedulerJob._run_scheduler_loop
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: task_instance.custom_operator_name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 845, in _execute
+    self._run_scheduler_loop()
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 977, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 1051, in _do_scheduling
+    self._create_dagruns_for_dags(guard, session)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/retries.py", line 91, in wrapped_function
+    for attempt in run_with_db_retries(max_retries=retries, logger=logger, **retry_kwargs):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/retries.py", line 100, in wrapped_function
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 1123, in _create_dagruns_for_dags
+    self._create_dag_runs(non_dataset_dags, session)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 1174, in _create_dag_runs
+    dag.create_dagrun(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 2903, in create_dagrun
+    run.verify_integrity(session=session)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagrun.py", line 984, in verify_integrity
+    task_ids = self._check_for_removed_or_restored_tasks(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagrun.py", line 1016, in _check_for_removed_or_restored_tasks
+    tis = self.get_task_instances(session=session)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagrun.py", line 484, in get_task_instances
+    return session.scalars(tis).all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: task_instance.custom_operator_name
+[SQL: SELECT task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.map_index, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.custom_operator_name, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.updated_at, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag_run_1.state AS state_1, dag_run_1.id, dag_run_1.dag_id AS dag_id_1, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date AS start_date_1, dag_run_1.end_date AS end_date_1, dag_run_1.run_id AS run_id_1, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash, dag_run_1.log_template_id, dag_run_1.updated_at AS updated_at_1 
+FROM task_instance JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id 
+WHERE task_instance.dag_id = ? AND task_instance.run_id = ?]
+[parameters: ('execute_sqlite_pipeline', 'scheduled__2023-10-15T00:00:00+00:00')]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2023-10-16 13:01:55,336 INFO - Sending 15 to group 88319. PIDs of all processes in the group: [88319]
+2023-10-16 13:01:55,338 INFO - Sending the signal 15 to group 88319
+2023-10-16 13:01:55,517 INFO - Process psutil.Process(pid=88319, status='terminated', exitcode=0, started='13:01:52') (88319) terminated with exit code 0
+2023-10-16 13:01:55,518 INFO - Exited execute loop
+2023-10-16 13:01:55,521 ERROR - Exception when running scheduler job
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: task_instance.custom_operator_name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/cli/commands/scheduler_command.py", line 47, in _run_scheduler_job
+    run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 77, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/job.py", line 289, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/job.py", line 318, in execute_job
+    ret = execute_callable()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 845, in _execute
+    self._run_scheduler_loop()
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 977, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 1051, in _do_scheduling
+    self._create_dagruns_for_dags(guard, session)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/retries.py", line 91, in wrapped_function
+    for attempt in run_with_db_retries(max_retries=retries, logger=logger, **retry_kwargs):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 325, in iter
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 158, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/retries.py", line 100, in wrapped_function
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 1123, in _create_dagruns_for_dags
+    self._create_dag_runs(non_dataset_dags, session)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/jobs/scheduler_job_runner.py", line 1174, in _create_dag_runs
+    dag.create_dagrun(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 2903, in create_dagrun
+    run.verify_integrity(session=session)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagrun.py", line 984, in verify_integrity
+    task_ids = self._check_for_removed_or_restored_tasks(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagrun.py", line 1016, in _check_for_removed_or_restored_tasks
+    tis = self.get_task_instances(session=session)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagrun.py", line 484, in get_task_instances
+    return session.scalars(tis).all()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: task_instance.custom_operator_name
+[SQL: SELECT task_instance.try_number, task_instance.task_id, task_instance.dag_id, task_instance.run_id, task_instance.map_index, task_instance.start_date, task_instance.end_date, task_instance.duration, task_instance.state, task_instance.max_tries, task_instance.hostname, task_instance.unixname, task_instance.job_id, task_instance.pool, task_instance.pool_slots, task_instance.queue, task_instance.priority_weight, task_instance.operator, task_instance.custom_operator_name, task_instance.queued_dttm, task_instance.queued_by_job_id, task_instance.pid, task_instance.executor_config, task_instance.updated_at, task_instance.external_executor_id, task_instance.trigger_id, task_instance.trigger_timeout, task_instance.next_method, task_instance.next_kwargs, dag_run_1.state AS state_1, dag_run_1.id, dag_run_1.dag_id AS dag_id_1, dag_run_1.queued_at, dag_run_1.execution_date, dag_run_1.start_date AS start_date_1, dag_run_1.end_date AS end_date_1, dag_run_1.run_id AS run_id_1, dag_run_1.creating_job_id, dag_run_1.external_trigger, dag_run_1.run_type, dag_run_1.conf, dag_run_1.data_interval_start, dag_run_1.data_interval_end, dag_run_1.last_scheduling_decision, dag_run_1.dag_hash, dag_run_1.log_template_id, dag_run_1.updated_at AS updated_at_1 
+FROM task_instance JOIN dag_run AS dag_run_1 ON dag_run_1.dag_id = task_instance.dag_id AND dag_run_1.run_id = task_instance.run_id 
+WHERE task_instance.dag_id = ? AND task_instance.run_id = ?]
+[parameters: ('execute_sqlite_pipeline', 'scheduled__2023-10-15T00:00:00+00:00')]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)

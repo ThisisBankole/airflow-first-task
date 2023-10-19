@@ -1,0 +1,28 @@
+[2023-10-17T15:35:37.433+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stores_pipeline.reading_and_preprocessing.remove_nulls_stores manual__2023-10-17T14:35:29.105640+00:00 [queued]>
+[2023-10-17T15:35:37.436+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stores_pipeline.reading_and_preprocessing.remove_nulls_stores manual__2023-10-17T14:35:29.105640+00:00 [queued]>
+[2023-10-17T15:35:37.436+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-17T15:35:37.441+0100] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): reading_and_preprocessing.remove_nulls_stores> on 2023-10-17 14:35:29.105640+00:00
+[2023-10-17T15:35:37.443+0100] {standard_task_runner.py:57} INFO - Started process 65032 to run task
+[2023-10-17T15:35:37.445+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'stores_pipeline', 'reading_and_preprocessing.remove_nulls_stores', 'manual__2023-10-17T14:35:29.105640+00:00', '--job-id', '406', '--raw', '--subdir', 'DAGS_FOLDER/stores_pipeline.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmpt0hbfv7n']
+[2023-10-17T15:35:37.448+0100] {standard_task_runner.py:85} INFO - Job 406: Subtask reading_and_preprocessing.remove_nulls_stores
+[2023-10-17T15:35:37.462+0100] {task_command.py:416} INFO - Running <TaskInstance: stores_pipeline.reading_and_preprocessing.remove_nulls_stores manual__2023-10-17T14:35:29.105640+00:00 [running]> on host 192.168.1.112
+[2023-10-17T15:35:37.480+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='stores_pipeline' AIRFLOW_CTX_TASK_ID='reading_and_preprocessing.remove_nulls_stores' AIRFLOW_CTX_EXECUTION_DATE='2023-10-17T14:35:29.105640+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-17T14:35:29.105640+00:00'
+[2023-10-17T15:35:37.485+0100] {logging_mixin.py:151} WARNING - /Users/b/airflow/dags/stores_pipeline.py:65 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2023-10-17T15:35:37.494+0100] {logging_mixin.py:151} INFO -      Unnamed: 0 Coles_StoreID Store_Location  Customer_Count  Staff_Count  Store_Area
+0             1          C524            QLD         18445.0           36        2500
+1             2          C624            NSW         40535.0           37        2500
+2             3          C460            VIC          6146.0           19        1900
+3             4          C708             SA          9151.0           23        1900
+4             5          C647            NSW          9308.0           23        1700
+..          ...           ...            ...             ...          ...         ...
+677         678          C105            QLD         23702.0           39        2700
+678         679          C374            QLD          7596.0           26        1700
+679         680          C240            NSW          9440.0           19        1700
+680         681          C689            NSW          8598.0           25        1700
+681         682          C249            VIC          7063.0           24        1700
+
+[625 rows x 6 columns]
+[2023-10-17T15:35:37.497+0100] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-17T15:35:37.499+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stores_pipeline, task_id=reading_and_preprocessing.remove_nulls_stores, execution_date=20231017T143529, start_date=20231017T143537, end_date=20231017T143537
+[2023-10-17T15:35:37.508+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-17T15:35:37.517+0100] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

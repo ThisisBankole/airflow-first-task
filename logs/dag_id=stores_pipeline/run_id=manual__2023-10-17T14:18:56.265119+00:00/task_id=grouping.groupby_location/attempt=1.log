@@ -1,0 +1,14 @@
+[2023-10-17T15:19:10.400+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stores_pipeline.grouping.groupby_location manual__2023-10-17T14:18:56.265119+00:00 [queued]>
+[2023-10-17T15:19:10.402+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stores_pipeline.grouping.groupby_location manual__2023-10-17T14:18:56.265119+00:00 [queued]>
+[2023-10-17T15:19:10.402+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-17T15:19:10.406+0100] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): grouping.groupby_location> on 2023-10-17 14:18:56.265119+00:00
+[2023-10-17T15:19:10.408+0100] {standard_task_runner.py:57} INFO - Started process 62719 to run task
+[2023-10-17T15:19:10.410+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'stores_pipeline', 'grouping.groupby_location', 'manual__2023-10-17T14:18:56.265119+00:00', '--job-id', '389', '--raw', '--subdir', 'DAGS_FOLDER/stores_pipeline.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmpor4xiwpn']
+[2023-10-17T15:19:10.412+0100] {standard_task_runner.py:85} INFO - Job 389: Subtask grouping.groupby_location
+[2023-10-17T15:19:10.424+0100] {task_command.py:416} INFO - Running <TaskInstance: stores_pipeline.grouping.groupby_location manual__2023-10-17T14:18:56.265119+00:00 [running]> on host 192.168.1.112
+[2023-10-17T15:19:10.442+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='stores_pipeline' AIRFLOW_CTX_TASK_ID='grouping.groupby_location' AIRFLOW_CTX_EXECUTION_DATE='2023-10-17T14:18:56.265119+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-17T14:18:56.265119+00:00'
+[2023-10-17T15:19:10.445+0100] {logging_mixin.py:151} WARNING - /Users/b/airflow/dags/stores_pipeline.py:166 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2023-10-17T15:19:10.462+0100] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-17T15:19:10.464+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stores_pipeline, task_id=grouping.groupby_location, execution_date=20231017T141856, start_date=20231017T141910, end_date=20231017T141910
+[2023-10-17T15:19:10.472+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-17T15:19:10.478+0100] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

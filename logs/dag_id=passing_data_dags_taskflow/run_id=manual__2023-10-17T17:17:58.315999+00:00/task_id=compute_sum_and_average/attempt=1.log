@@ -1,0 +1,13 @@
+[2023-10-17T18:18:01.097+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: passing_data_dags_taskflow.compute_sum_and_average manual__2023-10-17T17:17:58.315999+00:00 [queued]>
+[2023-10-17T18:18:01.099+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: passing_data_dags_taskflow.compute_sum_and_average manual__2023-10-17T17:17:58.315999+00:00 [queued]>
+[2023-10-17T18:18:01.099+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-17T18:18:01.103+0100] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): compute_sum_and_average> on 2023-10-17 17:17:58.315999+00:00
+[2023-10-17T18:18:01.104+0100] {standard_task_runner.py:57} INFO - Started process 81658 to run task
+[2023-10-17T18:18:01.107+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'passing_data_dags_taskflow', 'compute_sum_and_average', 'manual__2023-10-17T17:17:58.315999+00:00', '--job-id', '438', '--raw', '--subdir', 'DAGS_FOLDER/passing_data_taskflow.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmplff7xr3d']
+[2023-10-17T18:18:01.109+0100] {standard_task_runner.py:85} INFO - Job 438: Subtask compute_sum_and_average
+[2023-10-17T18:18:01.130+0100] {task_command.py:416} INFO - Running <TaskInstance: passing_data_dags_taskflow.compute_sum_and_average manual__2023-10-17T17:17:58.315999+00:00 [running]> on host 192.168.1.112
+[2023-10-17T18:18:01.151+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='passing_data_dags_taskflow' AIRFLOW_CTX_TASK_ID='compute_sum_and_average' AIRFLOW_CTX_EXECUTION_DATE='2023-10-17T17:17:58.315999+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-17T17:17:58.315999+00:00'
+[2023-10-17T18:18:01.151+0100] {python.py:194} INFO - Done. Returned value was: {'total': 2100, 'average': 350.0}
+[2023-10-17T18:18:01.158+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=passing_data_dags_taskflow, task_id=compute_sum_and_average, execution_date=20231017T171758, start_date=20231017T171801, end_date=20231017T171801
+[2023-10-17T18:18:01.165+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-17T18:18:01.171+0100] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

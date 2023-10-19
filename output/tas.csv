@@ -1,0 +1,9 @@
+Unnamed: 0_x,Coles_StoreIDNo,Expec_Revenue,Gross_Sale,Sales_Cost,Targeted_Quarter,Coles_Forecast,Unnamed: 0_y,Coles_StoreID,Store_Location,Customer_Count,Staff_Count,Store_Area
+15,C535,49,30,10,Q2 2023,Below Target,15,C535,TAS,8535,16,1700
+21,C574,50,34,12,Q2 2023,Below Target,21,C574,TAS,8342,20,1700
+66,C192,50,36,11,Q2 2023,Below Target,66,C192,TAS,7207,21,1700
+160,C369,49,38,8,Q2 2023,Below Target,160,C369,TAS,8820,16,1700
+368,C332,50,31,8,Q2 2023,Below Target,368,C332,TAS,8427,17,1700
+417,C315,49,55,15,Q2 2023,Below Target,417,C315,TAS,30166,38,2500
+462,C625,49,78,7,Q2 2023,On Target,462,C625,TAS,51777,35,2500
+482,C399,50,45,8,Q2 2023,Below Target,482,C399,TAS,9167,26,1900

@@ -1,0 +1,21 @@
+[2023-10-16T15:12:23.394+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_sqlite_pipeline.update_data manual__2023-10-16T14:12:16.465551+00:00 [queued]>
+[2023-10-16T15:12:23.396+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_sqlite_pipeline.update_data manual__2023-10-16T14:12:16.465551+00:00 [queued]>
+[2023-10-16T15:12:23.396+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-16T15:12:23.399+0100] {taskinstance.py:1382} INFO - Executing <Task(SqliteOperator): update_data> on 2023-10-16 14:12:16.465551+00:00
+[2023-10-16T15:12:23.401+0100] {standard_task_runner.py:57} INFO - Started process 99043 to run task
+[2023-10-16T15:12:23.404+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_sqlite_pipeline', 'update_data', 'manual__2023-10-16T14:12:16.465551+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/sqlite_pipeline.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmp568w4q9u']
+[2023-10-16T15:12:23.405+0100] {standard_task_runner.py:85} INFO - Job 97: Subtask update_data
+[2023-10-16T15:12:23.417+0100] {task_command.py:416} INFO - Running <TaskInstance: execute_sqlite_pipeline.update_data manual__2023-10-16T14:12:16.465551+00:00 [running]> on host 192.168.1.112
+[2023-10-16T15:12:23.436+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='execute_sqlite_pipeline' AIRFLOW_CTX_TASK_ID='update_data' AIRFLOW_CTX_EXECUTION_DATE='2023-10-16T14:12:16.465551+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-16T14:12:16.465551+00:00'
+[2023-10-16T15:12:23.436+0100] {sql.py:274} INFO - Executing: 
+            UPDATE new_users SET city = 'Manchester';
+        
+[2023-10-16T15:12:23.438+0100] {base.py:73} INFO - Using connection ID 'db_sqlite_conn' for task execution.
+[2023-10-16T15:12:23.464+0100] {base.py:73} INFO - Using connection ID 'db_sqlite_conn' for task execution.
+[2023-10-16T15:12:23.465+0100] {sql.py:418} INFO - Running statement: 
+            UPDATE new_users SET city = 'Manchester';
+        , parameters: None
+[2023-10-16T15:12:23.465+0100] {sql.py:427} INFO - Rows affected: 7
+[2023-10-16T15:12:23.467+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=execute_sqlite_pipeline, task_id=update_data, execution_date=20231016T141216, start_date=20231016T141223, end_date=20231016T141223
+[2023-10-16T15:12:23.509+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-16T15:12:23.517+0100] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

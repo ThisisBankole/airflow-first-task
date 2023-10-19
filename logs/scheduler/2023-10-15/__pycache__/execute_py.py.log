@@ -1,0 +1,1438 @@
+[2023-10-15T17:21:34.711+0100] {processor.py:153} INFO - Started process (PID=50441) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:34.713+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:34.713+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:34.713+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:34.726+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:34.725+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:34.726+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:34.881+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.171 seconds
+[2023-10-15T17:21:38.027+0100] {processor.py:153} INFO - Started process (PID=50451) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:38.029+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:38.029+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:38.029+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:38.038+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:38.038+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:38.038+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:38.186+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.159 seconds
+[2023-10-15T17:21:41.031+0100] {processor.py:153} INFO - Started process (PID=50461) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:41.033+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:41.033+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:41.033+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:41.043+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:41.042+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:41.043+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:41.195+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.164 seconds
+[2023-10-15T17:21:44.228+0100] {processor.py:153} INFO - Started process (PID=50475) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:44.230+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:44.230+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:44.230+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:44.239+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:44.239+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:44.240+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:44.397+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.169 seconds
+[2023-10-15T17:21:46.702+0100] {processor.py:153} INFO - Started process (PID=50479) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:46.704+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:46.705+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:46.705+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:46.714+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:46.713+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:46.714+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:46.873+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.171 seconds
+[2023-10-15T17:21:49.210+0100] {processor.py:153} INFO - Started process (PID=50484) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:49.211+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:49.212+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:49.212+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:49.221+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:49.221+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:49.221+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:49.374+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.165 seconds
+[2023-10-15T17:21:52.415+0100] {processor.py:153} INFO - Started process (PID=50489) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:52.418+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:52.419+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:52.419+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:52.429+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:52.428+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:52.429+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:52.602+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.187 seconds
+[2023-10-15T17:21:54.881+0100] {processor.py:153} INFO - Started process (PID=50495) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:54.883+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:54.883+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:54.883+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:54.893+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:54.893+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:54.894+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:55.058+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.178 seconds
+[2023-10-15T17:21:58.043+0100] {processor.py:153} INFO - Started process (PID=50504) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:58.045+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:21:58.045+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:58.045+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:58.055+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:21:58.054+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:21:58.055+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:21:58.203+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.160 seconds
+[2023-10-15T17:22:01.337+0100] {processor.py:153} INFO - Started process (PID=50508) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:01.339+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:01.340+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:01.340+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:01.349+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:01.349+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:01.350+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:01.516+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.179 seconds
+[2023-10-15T17:22:03.766+0100] {processor.py:153} INFO - Started process (PID=50515) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:03.768+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:03.768+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:03.768+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:03.777+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:03.777+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:03.778+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:03.933+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.167 seconds
+[2023-10-15T17:22:05.481+0100] {processor.py:153} INFO - Started process (PID=50519) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:05.483+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:05.483+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:05.483+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:05.492+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:05.491+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:05.492+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:05.640+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.160 seconds
+[2023-10-15T17:22:08.871+0100] {processor.py:153} INFO - Started process (PID=50524) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:08.890+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:08.891+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:08.891+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:08.902+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:08.901+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:08.909+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:09.075+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.204 seconds
+[2023-10-15T17:22:12.207+0100] {processor.py:153} INFO - Started process (PID=50529) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:12.209+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:12.209+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:12.209+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:12.226+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:12.225+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:12.226+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:12.396+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.189 seconds
+[2023-10-15T17:22:15.508+0100] {processor.py:153} INFO - Started process (PID=50535) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:15.510+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:15.510+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:15.510+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:15.519+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:15.519+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:15.520+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:15.666+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.158 seconds
+[2023-10-15T17:22:17.858+0100] {processor.py:153} INFO - Started process (PID=50540) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:17.860+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:17.860+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:17.860+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:17.869+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:17.868+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:17.869+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:18.016+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.158 seconds
+[2023-10-15T17:22:20.507+0100] {processor.py:153} INFO - Started process (PID=50545) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:20.508+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:20.509+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:20.508+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:20.518+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:20.517+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:20.518+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:20.667+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.160 seconds
+[2023-10-15T17:22:23.489+0100] {processor.py:153} INFO - Started process (PID=50550) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:23.490+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:23.491+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:23.491+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:23.500+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:23.499+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:23.500+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:23.650+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.161 seconds
+[2023-10-15T17:22:26.124+0100] {processor.py:153} INFO - Started process (PID=50554) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:26.126+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:26.126+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:26.126+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:26.135+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:26.135+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:26.135+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:26.284+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.160 seconds
+[2023-10-15T17:22:29.125+0100] {processor.py:153} INFO - Started process (PID=50559) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:29.127+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:29.127+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:29.127+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:29.141+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:29.137+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:29.141+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:29.295+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.170 seconds
+[2023-10-15T17:22:32.596+0100] {processor.py:153} INFO - Started process (PID=50564) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:32.599+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:32.599+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:32.599+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:32.611+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:32.610+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:32.612+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:32.778+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.182 seconds
+[2023-10-15T17:22:35.918+0100] {processor.py:153} INFO - Started process (PID=50583) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:35.920+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:35.920+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:35.920+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:35.930+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:35.929+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:35.930+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:36.091+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.173 seconds
+[2023-10-15T17:22:38.422+0100] {processor.py:153} INFO - Started process (PID=50591) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:38.424+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:38.424+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:38.424+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:38.434+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:38.433+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:38.434+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:38.589+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.167 seconds
+[2023-10-15T17:22:41.644+0100] {processor.py:153} INFO - Started process (PID=50595) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:41.646+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:41.646+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:41.646+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:41.656+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:41.656+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:41.656+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:41.809+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.165 seconds
+[2023-10-15T17:22:45.032+0100] {processor.py:153} INFO - Started process (PID=50607) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:45.036+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:45.036+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:45.036+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:45.046+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:45.045+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:45.046+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:45.200+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.169 seconds
+[2023-10-15T17:22:48.461+0100] {processor.py:153} INFO - Started process (PID=50617) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:48.463+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:48.463+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:48.463+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:48.473+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:48.472+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:48.473+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:48.622+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.162 seconds
+[2023-10-15T17:22:50.696+0100] {processor.py:153} INFO - Started process (PID=50622) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:50.698+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:50.698+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:50.698+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:50.711+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:50.709+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:50.711+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:50.913+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.217 seconds
+[2023-10-15T17:22:53.237+0100] {processor.py:153} INFO - Started process (PID=50630) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:53.239+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:53.239+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:53.239+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:53.250+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:53.250+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:53.251+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:53.483+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.246 seconds
+[2023-10-15T17:22:56.456+0100] {processor.py:153} INFO - Started process (PID=50636) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:56.458+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:56.459+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:56.459+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:56.471+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:56.470+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:56.471+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:56.635+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.179 seconds
+[2023-10-15T17:22:59.212+0100] {processor.py:153} INFO - Started process (PID=50643) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:59.215+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:22:59.215+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:59.215+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:59.225+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:22:59.224+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:22:59.225+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:22:59.399+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.187 seconds
+[2023-10-15T17:23:02.169+0100] {processor.py:153} INFO - Started process (PID=50647) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:02.171+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:02.171+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:02.171+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:02.182+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:02.181+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:02.182+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:02.373+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.204 seconds
+[2023-10-15T17:23:05.613+0100] {processor.py:153} INFO - Started process (PID=50654) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:05.615+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:05.615+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:05.615+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:05.625+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:05.624+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:05.625+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:05.801+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.188 seconds
+[2023-10-15T17:23:08.200+0100] {processor.py:153} INFO - Started process (PID=50659) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:08.202+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:08.202+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:08.202+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:08.211+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:08.211+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:08.211+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:08.361+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.162 seconds
+[2023-10-15T17:23:11.643+0100] {processor.py:153} INFO - Started process (PID=50663) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:11.645+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:11.645+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:11.645+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:11.660+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:11.654+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:11.660+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:11.824+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.181 seconds
+[2023-10-15T17:23:14.713+0100] {processor.py:153} INFO - Started process (PID=50671) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:14.715+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:14.715+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:14.715+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:14.725+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:14.725+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:14.726+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:14.885+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.172 seconds
+[2023-10-15T17:23:18.078+0100] {processor.py:153} INFO - Started process (PID=50681) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:18.080+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:18.080+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:18.080+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:18.089+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:18.089+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:18.089+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:18.254+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.176 seconds
+[2023-10-15T17:23:20.433+0100] {processor.py:153} INFO - Started process (PID=50686) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:20.435+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:20.435+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:20.435+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:20.447+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:20.446+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:20.447+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:20.661+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.228 seconds
+[2023-10-15T17:23:22.976+0100] {processor.py:153} INFO - Started process (PID=50692) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:22.978+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:22.978+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:22.978+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:22.989+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:22.988+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:22.989+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:23.137+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.161 seconds
+[2023-10-15T17:23:25.359+0100] {processor.py:153} INFO - Started process (PID=50696) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:25.361+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:25.361+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:25.361+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:25.371+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:25.370+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:25.371+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:25.528+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.169 seconds
+[2023-10-15T17:23:28.726+0100] {processor.py:153} INFO - Started process (PID=50701) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:28.728+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:28.729+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:28.729+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:28.739+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:28.738+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:28.739+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:28.891+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.165 seconds
+[2023-10-15T17:23:31.158+0100] {processor.py:153} INFO - Started process (PID=50705) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:31.160+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:31.160+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:31.160+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:31.169+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:31.169+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:31.170+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:31.316+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.159 seconds
+[2023-10-15T17:23:34.408+0100] {processor.py:153} INFO - Started process (PID=50710) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:34.410+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:34.410+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:34.410+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:34.419+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:34.419+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:34.420+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:34.572+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.164 seconds
+[2023-10-15T17:23:37.682+0100] {processor.py:153} INFO - Started process (PID=50717) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:37.683+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:37.684+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:37.684+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:37.693+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:37.692+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:37.693+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:37.839+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.158 seconds
+[2023-10-15T17:23:40.017+0100] {processor.py:153} INFO - Started process (PID=50721) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:40.019+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:40.019+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:40.019+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:40.029+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:40.028+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:40.029+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:40.179+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.162 seconds
+[2023-10-15T17:23:43.307+0100] {processor.py:153} INFO - Started process (PID=50726) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:43.309+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:43.309+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:43.309+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:43.319+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:43.318+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:43.319+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:43.468+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.160 seconds
+[2023-10-15T17:23:45.605+0100] {processor.py:153} INFO - Started process (PID=50732) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:45.606+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:45.607+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:45.607+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:45.616+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:45.615+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:45.616+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:45.763+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.159 seconds
+[2023-10-15T17:23:49.036+0100] {processor.py:153} INFO - Started process (PID=50737) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:49.040+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:49.040+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:49.040+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:49.050+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:49.049+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:49.050+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:49.294+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.258 seconds
+[2023-10-15T17:23:52.304+0100] {processor.py:153} INFO - Started process (PID=50745) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:52.306+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:52.306+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:52.306+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:52.316+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:52.316+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:52.316+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:52.494+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.190 seconds
+[2023-10-15T17:23:55.588+0100] {processor.py:153} INFO - Started process (PID=50755) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:55.590+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:55.590+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:55.590+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:55.599+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:55.599+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:55.599+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:55.746+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.158 seconds
+[2023-10-15T17:23:57.968+0100] {processor.py:153} INFO - Started process (PID=50760) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:57.984+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:23:57.984+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:57.984+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:57.995+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:23:57.994+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:23:57.995+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:23:58.173+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.205 seconds
+[2023-10-15T17:24:01.245+0100] {processor.py:153} INFO - Started process (PID=50775) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:01.246+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:01.247+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:01.247+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:01.257+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:01.256+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:01.257+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:01.444+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.200 seconds
+[2023-10-15T17:24:03.638+0100] {processor.py:153} INFO - Started process (PID=50781) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:03.640+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:03.641+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:03.641+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:03.650+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:03.650+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:03.650+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:03.826+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.188 seconds
+[2023-10-15T17:24:06.906+0100] {processor.py:153} INFO - Started process (PID=50794) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:06.907+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:06.908+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:06.908+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:06.918+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:06.917+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:06.918+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:07.090+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.185 seconds
+[2023-10-15T17:24:09.477+0100] {processor.py:153} INFO - Started process (PID=50799) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:09.479+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:09.479+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:09.479+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:09.489+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:09.489+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:09.489+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:09.642+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.165 seconds
+[2023-10-15T17:24:11.917+0100] {processor.py:153} INFO - Started process (PID=50807) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:11.919+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:11.920+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:11.920+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:11.930+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:11.929+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:11.930+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:12.095+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.177 seconds
+[2023-10-15T17:24:15.037+0100] {processor.py:153} INFO - Started process (PID=50815) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:15.039+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:15.039+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:15.039+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:15.049+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:15.048+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:15.049+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:15.195+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.158 seconds
+[2023-10-15T17:24:18.328+0100] {processor.py:153} INFO - Started process (PID=50820) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:18.330+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:18.330+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:18.330+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:18.340+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:18.339+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:18.340+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:18.493+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.166 seconds
+[2023-10-15T17:24:20.711+0100] {processor.py:153} INFO - Started process (PID=50825) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:20.713+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:20.713+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:20.713+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:20.722+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:20.722+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:20.723+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:20.873+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.162 seconds
+[2023-10-15T17:24:24.017+0100] {processor.py:153} INFO - Started process (PID=50830) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:24.019+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:24.019+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:24.019+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:24.029+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:24.028+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:24.029+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:24.175+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.158 seconds
+[2023-10-15T17:24:26.317+0100] {processor.py:153} INFO - Started process (PID=50834) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:26.319+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:26.319+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:26.319+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:26.328+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:26.328+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:26.329+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:26.481+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.164 seconds
+[2023-10-15T17:24:29.620+0100] {processor.py:153} INFO - Started process (PID=50839) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:29.622+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:29.622+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:29.622+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:29.632+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:29.631+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:29.632+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:29.788+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.169 seconds
+[2023-10-15T17:24:31.922+0100] {processor.py:153} INFO - Started process (PID=50843) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:31.924+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:31.924+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:31.924+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:31.934+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:31.933+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:31.934+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:32.101+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.179 seconds
+[2023-10-15T17:24:34.652+0100] {processor.py:153} INFO - Started process (PID=50848) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:34.654+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:34.654+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:34.654+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:34.664+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:34.663+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:34.664+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:34.814+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.162 seconds
+[2023-10-15T17:24:37.558+0100] {processor.py:153} INFO - Started process (PID=50855) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:37.560+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:37.561+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:37.561+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:37.570+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:37.569+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:37.570+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:37.719+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.161 seconds
+[2023-10-15T17:24:40.319+0100] {processor.py:153} INFO - Started process (PID=50859) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:40.321+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:40.321+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:40.321+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:40.330+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:40.329+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:40.330+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:40.478+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.159 seconds
+[2023-10-15T17:24:43.249+0100] {processor.py:153} INFO - Started process (PID=50864) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:43.251+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:43.251+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:43.251+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:43.262+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:43.261+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:43.262+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:43.440+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.192 seconds
+[2023-10-15T17:24:46.738+0100] {processor.py:153} INFO - Started process (PID=50881) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:46.740+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:46.740+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:46.740+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:46.750+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:46.749+0100] {dagbag.py:341} ERROR - Failed to import: /Users/b/airflow/dags/__pycache__/execute_py.py
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/b/airflow/dags/__pycache__/execute_py.py", line 15, in <module>
+    with DAG(
+         ^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/models/dag.py", line 443, in __init__
+    validate_key(dag_id)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/utils/helpers.py", line 55, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'execute python' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-10-15T17:24:46.750+0100] {processor.py:755} WARNING - No viable dags retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:46.923+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.185 seconds
+[2023-10-15T17:24:50.044+0100] {processor.py:153} INFO - Started process (PID=50894) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:50.046+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:50.047+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:50.047+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:50.061+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:50.268+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:50.268+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:execute_python
+[2023-10-15T17:24:50.270+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:50.270+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:execute_python
+[2023-10-15T17:24:50.272+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:50.272+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:execute_python
+[2023-10-15T17:24:50.272+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:50.272+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:24:50.275+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:50.275+0100] {dag.py:2726} INFO - Creating ORM DAG for execute_python
+[2023-10-15T17:24:50.278+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:50.278+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:24:50.284+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.240 seconds
+[2023-10-15T17:24:53.536+0100] {processor.py:153} INFO - Started process (PID=50906) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:53.538+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:53.538+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:53.538+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:53.551+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:53.565+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:53.565+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:24:53.709+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:53.709+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:24:53.715+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.180 seconds
+[2023-10-15T17:24:57.030+0100] {processor.py:153} INFO - Started process (PID=50911) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:57.032+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:24:57.032+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:57.032+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:57.049+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:24:57.064+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:57.064+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:24:57.239+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:24:57.239+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:24:57.246+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.216 seconds
+[2023-10-15T17:25:00.413+0100] {processor.py:153} INFO - Started process (PID=50918) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:00.415+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:00.415+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:00.415+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:00.427+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:00.441+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:00.441+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:00.598+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:00.598+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:00.605+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.193 seconds
+[2023-10-15T17:25:03.970+0100] {processor.py:153} INFO - Started process (PID=50925) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:03.971+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:03.972+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:03.972+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:03.984+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:03.998+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:03.998+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:04.140+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:04.140+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:04.146+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.177 seconds
+[2023-10-15T17:25:07.265+0100] {processor.py:153} INFO - Started process (PID=50933) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:07.267+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:07.268+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:07.268+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:07.281+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:07.296+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:07.296+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:07.472+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:07.472+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:07.479+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.215 seconds
+[2023-10-15T17:25:10.613+0100] {processor.py:153} INFO - Started process (PID=50939) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:10.615+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:10.615+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:10.615+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:10.627+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:10.641+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:10.641+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:10.785+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:10.785+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:10.792+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.179 seconds
+[2023-10-15T17:25:13.997+0100] {processor.py:153} INFO - Started process (PID=50946) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:13.999+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:13.999+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:13.999+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:14.011+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:14.025+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:14.025+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:14.202+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:14.202+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:14.210+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.213 seconds
+[2023-10-15T17:25:17.458+0100] {processor.py:153} INFO - Started process (PID=50954) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:17.460+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:17.460+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:17.460+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:17.474+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:17.497+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:17.497+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:17.656+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:17.656+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:17.663+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.205 seconds
+[2023-10-15T17:25:20.787+0100] {processor.py:153} INFO - Started process (PID=50965) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:20.789+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:20.790+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:20.789+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:20.802+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:20.948+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:20.948+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:20.955+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:20.955+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:20.961+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.174 seconds
+[2023-10-15T17:25:23.112+0100] {processor.py:153} INFO - Started process (PID=50972) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:23.114+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:23.114+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:23.114+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:23.126+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:23.276+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:23.275+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:23.282+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:23.282+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:23.288+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.177 seconds
+[2023-10-15T17:25:26.279+0100] {processor.py:153} INFO - Started process (PID=50981) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:26.280+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:26.281+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:26.280+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:26.292+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:26.438+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:26.438+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:26.445+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:26.445+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:26.451+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.173 seconds
+[2023-10-15T17:25:28.751+0100] {processor.py:153} INFO - Started process (PID=50986) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:28.753+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:28.753+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:28.753+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:28.765+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:28.914+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:28.913+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:28.920+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:28.920+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:28.926+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.175 seconds
+[2023-10-15T17:25:32.121+0100] {processor.py:153} INFO - Started process (PID=50993) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:32.123+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:32.123+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:32.123+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:32.141+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:32.334+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:32.334+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:32.342+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:32.342+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:32.349+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.229 seconds
+[2023-10-15T17:25:35.269+0100] {processor.py:153} INFO - Started process (PID=51029) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:35.271+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:35.271+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:35.271+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:35.285+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:35.455+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:35.454+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:35.462+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:35.462+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:35.469+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.200 seconds
+[2023-10-15T17:25:38.888+0100] {processor.py:153} INFO - Started process (PID=51035) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:38.891+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:38.891+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:38.891+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:38.905+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:39.068+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:39.068+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:39.075+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:39.074+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:39.081+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.193 seconds
+[2023-10-15T17:25:41.927+0100] {processor.py:153} INFO - Started process (PID=51044) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:41.929+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:41.929+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:41.929+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:41.942+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:42.116+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:42.116+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:42.124+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:42.123+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:42.131+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.204 seconds
+[2023-10-15T17:25:44.578+0100] {processor.py:153} INFO - Started process (PID=51050) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:44.580+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:44.580+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:44.580+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:44.592+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:44.741+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:44.741+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:44.748+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:44.748+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:44.755+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.177 seconds
+[2023-10-15T17:25:47.569+0100] {processor.py:153} INFO - Started process (PID=51060) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:47.571+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:47.571+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:47.571+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:47.583+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:47.730+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:47.730+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:47.736+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:47.736+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:47.743+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.174 seconds
+[2023-10-15T17:25:50.213+0100] {processor.py:153} INFO - Started process (PID=51064) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:50.215+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:50.215+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:50.215+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:50.228+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:50.379+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:50.379+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:50.386+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:50.385+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:50.393+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.180 seconds
+[2023-10-15T17:25:53.559+0100] {processor.py:153} INFO - Started process (PID=51072) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:53.561+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:53.561+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:53.561+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:53.574+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:53.721+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:53.721+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:53.727+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:53.727+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:53.733+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.175 seconds
+[2023-10-15T17:25:55.838+0100] {processor.py:153} INFO - Started process (PID=51076) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:55.840+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:55.840+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:55.840+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:55.853+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:56.010+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:56.010+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:56.017+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:56.016+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:56.023+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.185 seconds
+[2023-10-15T17:25:57.638+0100] {processor.py:153} INFO - Started process (PID=51084) to work on /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:57.640+0100] {processor.py:743} INFO - Processing file /Users/b/airflow/dags/__pycache__/execute_py.py for tasks to queue
+[2023-10-15T17:25:57.640+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:57.640+0100] {dagbag.py:532} INFO - Filling up the DagBag from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:57.652+0100] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/__pycache__/execute_py.py
+[2023-10-15T17:25:57.803+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:57.803+0100] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-10-15T17:25:57.810+0100] {logging_mixin.py:137} INFO - [2023-10-15T17:25:57.810+0100] {dag.py:3452} INFO - Setting next_dagrun for execute_python to 2023-10-14T00:00:00+00:00, run_after=2023-10-15T00:00:00+00:00
+[2023-10-15T17:25:57.817+0100] {processor.py:175} INFO - Processing /Users/b/airflow/dags/__pycache__/execute_py.py took 0.179 seconds

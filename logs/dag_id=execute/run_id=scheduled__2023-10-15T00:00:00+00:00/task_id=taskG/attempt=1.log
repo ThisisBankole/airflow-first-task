@@ -1,0 +1,28 @@
+[2023-10-16T01:03:04.423+0100] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute.taskG scheduled__2023-10-15T00:00:00+00:00 [queued]>
+[2023-10-16T01:03:04.427+0100] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute.taskG scheduled__2023-10-15T00:00:00+00:00 [queued]>
+[2023-10-16T01:03:04.427+0100] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-16T01:03:04.427+0100] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-10-16T01:03:04.427+0100] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-16T01:03:04.430+0100] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): taskG> on 2023-10-15 00:00:00+00:00
+[2023-10-16T01:03:04.432+0100] {standard_task_runner.py:55} INFO - Started process 72448 to run task
+[2023-10-16T01:03:04.434+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'execute', 'taskG', 'scheduled__2023-10-15T00:00:00+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/execute.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmpq4db_4ec']
+[2023-10-16T01:03:04.437+0100] {standard_task_runner.py:83} INFO - Job 65: Subtask taskG
+[2023-10-16T01:03:04.462+0100] {task_command.py:389} INFO - Running <TaskInstance: execute.taskG scheduled__2023-10-15T00:00:00+00:00 [running]> on host 192.168.1.112
+[2023-10-16T01:03:04.476+0100] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=workflow
+AIRFLOW_CTX_DAG_ID=execute
+AIRFLOW_CTX_TASK_ID=taskG
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-15T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-15T00:00:00+00:00
+[2023-10-16T01:03:04.476+0100] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T
+[2023-10-16T01:03:04.476+0100] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo TASK G has been completed!']
+[2023-10-16T01:03:04.486+0100] {subprocess.py:86} INFO - Output:
+[2023-10-16T01:03:04.488+0100] {subprocess.py:93} INFO - TASK G has been completed!
+[2023-10-16T01:03:04.489+0100] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-10-16T01:03:04.495+0100] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=execute, task_id=taskG, execution_date=20231015T000000, start_date=20231016T000304, end_date=20231016T000304
+[2023-10-16T01:03:04.541+0100] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-10-16T01:03:04.547+0100] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

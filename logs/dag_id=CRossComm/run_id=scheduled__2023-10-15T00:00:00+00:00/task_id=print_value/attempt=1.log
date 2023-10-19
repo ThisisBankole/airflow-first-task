@@ -1,0 +1,24 @@
+[2023-10-16T01:03:06.112+0100] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CRossComm.print_value scheduled__2023-10-15T00:00:00+00:00 [queued]>
+[2023-10-16T01:03:06.115+0100] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CRossComm.print_value scheduled__2023-10-15T00:00:00+00:00 [queued]>
+[2023-10-16T01:03:06.115+0100] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-16T01:03:06.115+0100] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-10-16T01:03:06.115+0100] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-10-16T01:03:06.119+0100] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): print_value> on 2023-10-15 00:00:00+00:00
+[2023-10-16T01:03:06.121+0100] {standard_task_runner.py:55} INFO - Started process 72453 to run task
+[2023-10-16T01:03:06.125+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'CRossComm', 'print_value', 'scheduled__2023-10-15T00:00:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/cross-comm.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmpn4ffvppq']
+[2023-10-16T01:03:06.128+0100] {standard_task_runner.py:83} INFO - Job 66: Subtask print_value
+[2023-10-16T01:03:06.156+0100] {task_command.py:389} INFO - Running <TaskInstance: CRossComm.print_value scheduled__2023-10-15T00:00:00+00:00 [running]> on host 192.168.1.112
+[2023-10-16T01:03:06.174+0100] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=workflow
+AIRFLOW_CTX_DAG_ID=CRossComm
+AIRFLOW_CTX_TASK_ID=print_value
+AIRFLOW_CTX_EXECUTION_DATE=2023-10-15T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-10-15T00:00:00+00:00
+[2023-10-16T01:03:06.177+0100] {logging_mixin.py:137} INFO - value is 191
+[2023-10-16T01:03:06.177+0100] {python.py:177} INFO - Done. Returned value was: None
+[2023-10-16T01:03:06.179+0100] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=CRossComm, task_id=print_value, execution_date=20231015T000000, start_date=20231016T000306, end_date=20231016T000306
+[2023-10-16T01:03:06.185+0100] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-10-16T01:03:06.190+0100] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

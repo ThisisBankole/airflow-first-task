@@ -1,0 +1,113 @@
+[2023-10-17T15:01:38.448+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stores_pipeline.grouping.groupby_location manual__2023-10-17T14:01:21.594004+00:00 [queued]>
+[2023-10-17T15:01:38.450+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stores_pipeline.grouping.groupby_location manual__2023-10-17T14:01:21.594004+00:00 [queued]>
+[2023-10-17T15:01:38.450+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-17T15:01:38.454+0100] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): grouping.groupby_location> on 2023-10-17 14:01:21.594004+00:00
+[2023-10-17T15:01:38.456+0100] {standard_task_runner.py:57} INFO - Started process 60141 to run task
+[2023-10-17T15:01:38.458+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'stores_pipeline', 'grouping.groupby_location', 'manual__2023-10-17T14:01:21.594004+00:00', '--job-id', '365', '--raw', '--subdir', 'DAGS_FOLDER/stores_pipeline.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmp71eqmth7']
+[2023-10-17T15:01:38.459+0100] {standard_task_runner.py:85} INFO - Job 365: Subtask grouping.groupby_location
+[2023-10-17T15:01:38.474+0100] {task_command.py:416} INFO - Running <TaskInstance: stores_pipeline.grouping.groupby_location manual__2023-10-17T14:01:21.594004+00:00 [running]> on host 192.168.1.112
+[2023-10-17T15:01:38.491+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='stores_pipeline' AIRFLOW_CTX_TASK_ID='grouping.groupby_location' AIRFLOW_CTX_EXECUTION_DATE='2023-10-17T14:01:21.594004+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-17T14:01:21.594004+00:00'
+[2023-10-17T15:01:38.495+0100] {logging_mixin.py:151} WARNING - /Users/b/airflow/dags/stores_pipeline.py:147 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2023-10-17T15:01:38.506+0100] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 160, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index_class_helper.pxi", line 70, in pandas._libs.index.Int64Engine._check_type
+KeyError: 'Coles_StoreID'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/generic.py", line 289, in aggregate
+    return self._python_agg_general(func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/generic.py", line 322, in _python_agg_general
+    result = self.grouper.agg_series(obj, f)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/ops.py", line 850, in agg_series
+    result = self._aggregate_series_pure_python(obj, func)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/ops.py", line 871, in _aggregate_series_pure_python
+    res = func(group)
+          ^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/generic.py", line 319, in <lambda>
+    f = lambda x: func(x, *args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/dags/stores_pipeline.py", line 153, in <lambda>
+    'Coles_StoreID': lambda x: x['Coles_StoreID'].nunique(),
+                               ~^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1040, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1156, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Coles_StoreID'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 160, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index_class_helper.pxi", line 70, in pandas._libs.index.Int64Engine._check_type
+KeyError: 'Coles_StoreID'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/dags/stores_pipeline.py", line 149, in groupby_location
+    region_df = df.groupby('Store_Location').agg({
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/generic.py", line 1442, in aggregate
+    result = op.agg()
+             ^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 175, in agg
+    return self.agg_dict_like()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 406, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 1388, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+                                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 479, in compute_dict_like
+    results = [
+              ^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/apply.py", line 480, in <listcomp>
+    getattr(obj._gotitem(key, ndim=1), op_name)(how, **kwargs)
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/generic.py", line 294, in aggregate
+    result = self._aggregate_named(func, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/groupby/generic.py", line 456, in _aggregate_named
+    output = func(group, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/dags/stores_pipeline.py", line 153, in <lambda>
+    'Coles_StoreID': lambda x: x['Coles_StoreID'].nunique(),
+                               ~^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1040, in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/series.py", line 1156, in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/b/airflow/venv/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Coles_StoreID'
+[2023-10-17T15:01:38.513+0100] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=stores_pipeline, task_id=grouping.groupby_location, execution_date=20231017T140121, start_date=20231017T140138, end_date=20231017T140138
+[2023-10-17T15:01:38.516+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 365 for task grouping.groupby_location ('Coles_StoreID'; 60141)
+[2023-10-17T15:01:38.521+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-10-17T15:01:38.527+0100] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,33 @@
+[2023-10-19T01:00:01.843+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute.taskA scheduled__2023-10-18T00:00:00+00:00 [queued]>
+[2023-10-19T01:00:01.844+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute.taskA scheduled__2023-10-18T00:00:00+00:00 [queued]>
+[2023-10-19T01:00:01.844+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-19T01:00:01.849+0100] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): taskA> on 2023-10-18 00:00:00+00:00
+[2023-10-19T01:00:01.850+0100] {standard_task_runner.py:57} INFO - Started process 27751 to run task
+[2023-10-19T01:00:01.856+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute', 'taskA', 'scheduled__2023-10-18T00:00:00+00:00', '--job-id', '451', '--raw', '--subdir', 'DAGS_FOLDER/execute.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmp5_nyrhy6']
+[2023-10-19T01:00:01.863+0100] {standard_task_runner.py:85} INFO - Job 451: Subtask taskA
+[2023-10-19T01:00:01.887+0100] {task_command.py:416} INFO - Running <TaskInstance: execute.taskA scheduled__2023-10-18T00:00:00+00:00 [running]> on host 192.168.1.112
+[2023-10-19T01:00:01.905+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='execute' AIRFLOW_CTX_TASK_ID='taskA' AIRFLOW_CTX_EXECUTION_DATE='2023-10-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-18T00:00:00+00:00'
+[2023-10-19T01:00:01.910+0100] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T
+[2023-10-19T01:00:01.910+0100] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo TASK A has started!\n\nfor i in {1..15}\ndo\n    echo "TASK A: $i"\n    sleep 10\ndone\n\necho TASK A has finished!']
+[2023-10-19T01:00:01.921+0100] {subprocess.py:86} INFO - Output:
+[2023-10-19T01:00:01.925+0100] {subprocess.py:93} INFO - TASK A has started!
+[2023-10-19T01:00:01.926+0100] {subprocess.py:93} INFO - TASK A: 1
+[2023-10-19T01:00:11.938+0100] {subprocess.py:93} INFO - TASK A: 2
+[2023-10-19T01:00:21.946+0100] {subprocess.py:93} INFO - TASK A: 3
+[2023-10-19T01:00:31.960+0100] {subprocess.py:93} INFO - TASK A: 4
+[2023-10-19T01:00:41.978+0100] {subprocess.py:93} INFO - TASK A: 5
+[2023-10-19T01:00:51.996+0100] {subprocess.py:93} INFO - TASK A: 6
+[2023-10-19T01:01:02.012+0100] {subprocess.py:93} INFO - TASK A: 7
+[2023-10-19T01:01:12.029+0100] {subprocess.py:93} INFO - TASK A: 8
+[2023-10-19T01:01:22.046+0100] {subprocess.py:93} INFO - TASK A: 9
+[2023-10-19T01:01:32.068+0100] {subprocess.py:93} INFO - TASK A: 10
+[2023-10-19T01:01:42.083+0100] {subprocess.py:93} INFO - TASK A: 11
+[2023-10-19T01:01:52.104+0100] {subprocess.py:93} INFO - TASK A: 12
+[2023-10-19T01:02:02.118+0100] {subprocess.py:93} INFO - TASK A: 13
+[2023-10-19T01:02:12.140+0100] {subprocess.py:93} INFO - TASK A: 14
+[2023-10-19T01:02:22.162+0100] {subprocess.py:93} INFO - TASK A: 15
+[2023-10-19T01:02:32.178+0100] {subprocess.py:93} INFO - TASK A has finished!
+[2023-10-19T01:02:32.181+0100] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-10-19T01:02:32.221+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=execute, task_id=taskA, execution_date=20231018T000000, start_date=20231019T000001, end_date=20231019T000232
+[2023-10-19T01:02:32.236+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-19T01:02:32.255+0100] {taskinstance.py:2778} INFO - 3 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,13 @@
+[2023-10-17T18:00:28.182+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: passing_data_dags_taskflow.compute_average scheduled__2023-10-16T00:00:00+00:00 [queued]>
+[2023-10-17T18:00:28.184+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: passing_data_dags_taskflow.compute_average scheduled__2023-10-16T00:00:00+00:00 [queued]>
+[2023-10-17T18:00:28.184+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-17T18:00:28.187+0100] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): compute_average> on 2023-10-16 00:00:00+00:00
+[2023-10-17T18:00:28.189+0100] {standard_task_runner.py:57} INFO - Started process 79735 to run task
+[2023-10-17T18:00:28.191+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'passing_data_dags_taskflow', 'compute_average', 'scheduled__2023-10-16T00:00:00+00:00', '--job-id', '432', '--raw', '--subdir', 'DAGS_FOLDER/passing_data_taskflow.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmprrc_8z4y']
+[2023-10-17T18:00:28.192+0100] {standard_task_runner.py:85} INFO - Job 432: Subtask compute_average
+[2023-10-17T18:00:28.205+0100] {task_command.py:416} INFO - Running <TaskInstance: passing_data_dags_taskflow.compute_average scheduled__2023-10-16T00:00:00+00:00 [running]> on host 192.168.1.112
+[2023-10-17T18:00:28.224+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='passing_data_dags_taskflow' AIRFLOW_CTX_TASK_ID='compute_average' AIRFLOW_CTX_EXECUTION_DATE='2023-10-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-16T00:00:00+00:00'
+[2023-10-17T18:00:28.224+0100] {python.py:194} INFO - Done. Returned value was: 350.0
+[2023-10-17T18:00:28.228+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=passing_data_dags_taskflow, task_id=compute_average, execution_date=20231016T000000, start_date=20231017T170028, end_date=20231017T170028
+[2023-10-17T18:00:28.249+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-17T18:00:28.256+0100] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

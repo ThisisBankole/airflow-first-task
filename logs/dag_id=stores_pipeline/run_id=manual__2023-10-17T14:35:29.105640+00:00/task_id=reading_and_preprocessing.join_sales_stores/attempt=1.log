@@ -1,0 +1,29 @@
+[2023-10-17T15:35:39.349+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stores_pipeline.reading_and_preprocessing.join_sales_stores manual__2023-10-17T14:35:29.105640+00:00 [queued]>
+[2023-10-17T15:35:39.351+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stores_pipeline.reading_and_preprocessing.join_sales_stores manual__2023-10-17T14:35:29.105640+00:00 [queued]>
+[2023-10-17T15:35:39.351+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-17T15:35:39.355+0100] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): reading_and_preprocessing.join_sales_stores> on 2023-10-17 14:35:29.105640+00:00
+[2023-10-17T15:35:39.357+0100] {standard_task_runner.py:57} INFO - Started process 65042 to run task
+[2023-10-17T15:35:39.361+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'stores_pipeline', 'reading_and_preprocessing.join_sales_stores', 'manual__2023-10-17T14:35:29.105640+00:00', '--job-id', '407', '--raw', '--subdir', 'DAGS_FOLDER/stores_pipeline.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmp5j_djyx5']
+[2023-10-17T15:35:39.362+0100] {standard_task_runner.py:85} INFO - Job 407: Subtask reading_and_preprocessing.join_sales_stores
+[2023-10-17T15:35:39.379+0100] {task_command.py:416} INFO - Running <TaskInstance: stores_pipeline.reading_and_preprocessing.join_sales_stores manual__2023-10-17T14:35:29.105640+00:00 [running]> on host 192.168.1.112
+[2023-10-17T15:35:39.399+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='stores_pipeline' AIRFLOW_CTX_TASK_ID='reading_and_preprocessing.join_sales_stores' AIRFLOW_CTX_EXECUTION_DATE='2023-10-17T14:35:29.105640+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-17T14:35:29.105640+00:00'
+[2023-10-17T15:35:39.405+0100] {logging_mixin.py:151} WARNING - /Users/b/airflow/dags/stores_pipeline.py:79 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2023-10-17T15:35:39.411+0100] {logging_mixin.py:151} WARNING - /Users/b/airflow/dags/stores_pipeline.py:80 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2023-10-17T15:35:39.425+0100] {logging_mixin.py:151} INFO -      Unnamed: 0_x Coles_StoreIDNo  Expec_Revenue  Gross_Sale  ...  Store_Location Customer_Count Staff_Count  Store_Area
+0               1            C524             39          56  ...             QLD          18445          36        2500
+1               2            C624             22          55  ...             NSW          40535          37        2500
+2               3            C460             36          51  ...             VIC           6146          19        1900
+3               4            C708             48          50  ...              SA           9151          23        1900
+4               5            C647             23          39  ...             NSW           9308          23        1700
+..            ...             ...            ...         ...  ...             ...            ...         ...         ...
+606           678            C105             43          57  ...             QLD          23702          39        2700
+607           679            C374             40          25  ...             QLD           7596          26        1700
+608           680            C240             27          30  ...             NSW           9440          19        1700
+609           681            C689             25          44  ...             NSW           8598          25        1700
+610           682            C249             36          40  ...             VIC           7063          24        1700
+
+[611 rows x 13 columns]
+[2023-10-17T15:35:39.429+0100] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-17T15:35:39.431+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=stores_pipeline, task_id=reading_and_preprocessing.join_sales_stores, execution_date=20231017T143529, start_date=20231017T143539, end_date=20231017T143539
+[2023-10-17T15:35:39.467+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-17T15:35:39.479+0100] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

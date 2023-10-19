@@ -1,0 +1,14 @@
+[2023-10-19T14:11:14.022+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branching_op_taskflow.filter_two_seaters_task manual__2023-10-19T13:11:07.453031+00:00 [queued]>
+[2023-10-19T14:11:14.025+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branching_op_taskflow.filter_two_seaters_task manual__2023-10-19T13:11:07.453031+00:00 [queued]>
+[2023-10-19T14:11:14.025+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-10-19T14:11:14.031+0100] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): filter_two_seaters_task> on 2023-10-19 13:11:07.453031+00:00
+[2023-10-19T14:11:14.034+0100] {standard_task_runner.py:57} INFO - Started process 64980 to run task
+[2023-10-19T14:11:14.041+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'branching_op_taskflow', 'filter_two_seaters_task', 'manual__2023-10-19T13:11:07.453031+00:00', '--job-id', '481', '--raw', '--subdir', 'DAGS_FOLDER/branching_op_taskflow.py', '--cfg-path', '/var/folders/_3/bj8r7kz51nz4g7hl_dpr6jdw0000gn/T/tmp4masba_g']
+[2023-10-19T14:11:14.043+0100] {standard_task_runner.py:85} INFO - Job 481: Subtask filter_two_seaters_task
+[2023-10-19T14:11:14.063+0100] {task_command.py:416} INFO - Running <TaskInstance: branching_op_taskflow.filter_two_seaters_task manual__2023-10-19T13:11:07.453031+00:00 [running]> on host 192.168.1.112
+[2023-10-19T14:11:14.087+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='workflow' AIRFLOW_CTX_DAG_ID='branching_op_taskflow' AIRFLOW_CTX_TASK_ID='filter_two_seaters_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-19T13:11:07.453031+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-10-19T13:11:07.453031+00:00'
+[2023-10-19T14:11:14.090+0100] {logging_mixin.py:151} WARNING - /Users/b/airflow/dags/branching_op_taskflow.py:56 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2023-10-19T14:11:14.103+0100] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-19T14:11:14.106+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=branching_op_taskflow, task_id=filter_two_seaters_task, execution_date=20231019T131107, start_date=20231019T131114, end_date=20231019T131114
+[2023-10-19T14:11:14.140+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-19T14:11:14.147+0100] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
