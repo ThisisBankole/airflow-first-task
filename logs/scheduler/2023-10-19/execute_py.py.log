@@ -8706,3 +8706,10 @@
 [2023-10-19T15:18:11.965+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:11.965+0100] {dag.py:2941} INFO - Sync 1 DAGs
 [2023-10-19T15:18:11.971+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:11.971+0100] {dag.py:3722} INFO - Setting next_dagrun for execute_python to 2023-10-19T00:00:00+00:00, run_after=2023-10-20T00:00:00+00:00
 [2023-10-19T15:18:11.977+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/execute_py.py took 0.089 seconds
+[2023-10-19T15:18:42.662+0100] {processor.py:157} INFO - Started process (PID=70607) to work on /Users/b/airflow/dags/execute_py.py
+[2023-10-19T15:18:42.664+0100] {processor.py:829} INFO - Processing file /Users/b/airflow/dags/execute_py.py for tasks to queue
+[2023-10-19T15:18:42.665+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:42.665+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/b/airflow/dags/execute_py.py
+[2023-10-19T15:18:42.680+0100] {processor.py:839} INFO - DAG(s) dict_keys(['execute_python']) retrieved from /Users/b/airflow/dags/execute_py.py
+[2023-10-19T15:18:42.742+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:42.742+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-10-19T15:18:42.748+0100] {logging_mixin.py:151} INFO - [2023-10-19T15:18:42.748+0100] {dag.py:3722} INFO - Setting next_dagrun for execute_python to 2023-10-19T00:00:00+00:00, run_after=2023-10-20T00:00:00+00:00
+[2023-10-19T15:18:42.756+0100] {processor.py:179} INFO - Processing /Users/b/airflow/dags/execute_py.py took 0.094 seconds
